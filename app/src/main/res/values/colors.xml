@@ -1,0 +1,58 @@
+<resources>
+    <!-- Neutral Colors -->
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="transparent">#00000000</color>
+    <color name="ImagePlaceholder">#2F2F2F</color>
+
+    <!-- ✅ Light Theme Colors -->
+
+    <!-- Primary Backgrounds -->
+    <color name="md_theme_light_primary">#FFFFFF</color>
+    <color name="md_theme_light_background">#FAFAFA</color>
+    <color name="md_theme_light_surface">#FFFFFF</color>
+    <color name="md_theme_light_surface_variant">#F2F2F2</color>
+    <color name="md_theme_light_outline">#D0D0D0</color>
+
+    <!-- Text -->
+    <color name="md_theme_light_onPrimary">#000000</color>
+    <color name="md_theme_light_onBackground">#2E2E2E</color>
+    <color name="md_theme_light_onSurface">#1A1A1A</color>
+    <color name="md_theme_light_onSurfaceVariant">#5C5C5C</color>
+
+    <!-- Action & Accent -->
+    <color name="md_theme_light_secondary">#42A5F5</color> <!-- Calm blue for action buttons -->
+    <color name="md_theme_light_tertiary">#66BB6A</color> <!-- Soft green for positive mood -->
+    <color name="md_theme_light_warning">#FFA726</color>  <!-- Friendly orange for reminders -->
+    <color name="md_theme_light_error">#D32F2F</color>
+    <color name="md_theme_light_success">#388E3C</color>  <!-- For success toast or alerts -->
+    <color name="md_theme_light_moodHappy">#FFD54F</color> <!-- Mood emoji bg -->
+    <color name="md_theme_light_moodSad">#90CAF9</color> <!-- Cool tone for sad mood -->
+    <color name="md_theme_light_inversePrimary">#4A4A4A</color>
+    <color name="md_theme_light_shadow">#1A000000</color>
+
+    <!-- 🌙 Dark Theme Colors -->
+
+    <color name="md_theme_dark_primary">#121212</color>
+    <color name="md_theme_dark_background">#0A0A0A</color>
+    <color name="md_theme_dark_surface">#1A1A1A</color>
+    <color name="md_theme_dark_surface_variant">#2C2C2C</color>
+    <color name="md_theme_dark_outline">#444444</color>
+
+    <!-- Text -->
+    <color name="md_theme_dark_onPrimary">#FFFFFF</color>
+    <color name="md_theme_dark_onBackground">#E0E0E0</color>
+    <color name="md_theme_dark_onSurface">#F5F5F5</color>
+    <color name="md_theme_dark_onSurfaceVariant">#AAAAAA</color>
+
+    <!-- Action & Accent -->
+    <color name="md_theme_dark_secondary">#64B5F6</color>
+    <color name="md_theme_dark_tertiary">#81C784</color>
+    <color name="md_theme_dark_warning">#FFB74D</color>
+    <color name="md_theme_dark_error">#EF5350</color>
+    <color name="md_theme_dark_success">#66BB6A</color>
+    <color name="md_theme_dark_moodHappy">#FFEE58</color>
+    <color name="md_theme_dark_moodSad">#64B5F6</color>
+    <color name="md_theme_dark_inversePrimary">#E0E0E0</color>
+    <color name="md_theme_dark_shadow">#1A000000</color>
+</resources>

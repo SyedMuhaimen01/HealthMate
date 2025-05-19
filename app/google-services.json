@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "652188267107",
+    "project_id": "healthmate-4a3e7",
+    "storage_bucket": "healthmate-4a3e7.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:652188267107:android:c4d2c40cc055dce03c3e56",
+        "android_client_info": {
+          "package_name": "com.muhaimen.healthmate"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAA1OeJxzWYXBQUdiBj5p6vUSFiRj3XJBY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

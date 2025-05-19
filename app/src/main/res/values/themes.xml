@@ -1,0 +1,45 @@
+<resources >
+
+    <!-- Base application theme for HealthMate (Light) -->
+    <style name="Base.Theme.HealthMate" parent="Theme.Material3.Light.NoActionBar">
+
+        <!-- Primary Colors -->
+        <item name="colorPrimary">@color/md_theme_light_secondary</item>
+        <item name="colorOnPrimary">@color/md_theme_light_onPrimary</item>
+
+        <!-- Surface & Background -->
+        <item name="colorSurface">@color/md_theme_light_surface</item>
+        <item name="colorOnSurface">@color/md_theme_light_onSurface</item>
+        <item name="colorOnBackground">@color/md_theme_light_onBackground</item>
+        <item name="colorSurfaceVariant">@color/md_theme_light_surface_variant</item>
+        <item name="colorOnSurfaceVariant">@color/md_theme_light_onSurfaceVariant</item>
+
+        <!-- Outlines & Shadows -->
+        <item name="colorOutline">@color/md_theme_light_outline</item>
+        <item name="android:shadowColor">@color/md_theme_light_shadow</item>
+
+        <!-- Error & Warning -->
+        <item name="colorError">@color/md_theme_light_error</item>
+        <item name="colorSecondary">@color/md_theme_light_warning</item>
+
+        <!-- Tertiary (accent colors like mood or hydration) -->
+        <item name="colorTertiary">@color/md_theme_light_tertiary</item>
+
+        <!-- Status bar & navigation bar -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/white</item>
+
+        <!-- Tooling -->
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <!-- Public app theme -->
+    <style name="Theme.HealthMate" parent="Base.Theme.HealthMate" />
+
+    <style name="Theme.HealthMate.SplashScreen" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/md_theme_dark_primary</item>
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/health_mate_logo</item>
+        <item name="windowSplashScreenIconBackgroundColor">@color/md_theme_dark_onPrimary</item>
+        <item name="postSplashScreenTheme">@style/Base.Theme.HealthMate</item>
+    </style>
+</resources>
